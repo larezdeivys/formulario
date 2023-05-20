@@ -1,0 +1,47 @@
+@media screen and (min-width: 500px){
+	.contenedor{
+		width: 20rem;
+	}
+	.campos{
+		width: 18rem;
+	}
+	.edad{
+		width: 5rem;
+	}
+}
+@media screen and (min-width: 700px){
+	.contenedor{
+		width: 22rem;
+		height: 30rem;
+	}
+	.campos{
+		width: 20rem;
+	}
+	.campos .h3{
+		margin-top: 6.2rem;
+		font-size: 2rem;
+	}
+	.campos label{
+		margin-top: .9rem;
+		font-size: .8rem;
+	}
+	.campos input{
+		font-size: .7rem;
+	}
+}
+@media screen and (min-width: 1400px){
+	.contenedor{
+		height: 35rem;
+	}
+	.campos .h3{
+		margin-top: 6.3rem;
+		font-size: 2.4rem;
+	}
+	.campos label{
+		margin-top: 1rem;
+		font-size: 1rem;
+	}
+	.campos input{
+		font-size: .9rem;
+	}
+}

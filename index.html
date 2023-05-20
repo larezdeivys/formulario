@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formulario de contacto</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<section class="formulario">
+		<!-- <div class="content"> -->
+			
+		<form id="formulario" action="#" class="contenedor">
+			<div class="cirArriba"></div>
+			<div class="cirIzquir"></div>
+			<div class="cirDerech"></div>
+			<div class="campos">
+				<h3 class="h3">Inscribir Curso</h3>
+
+				<label for="nombre">Nombre Completo</label>
+				<input id="nombre" type="text" name="nombre" placeholder="Deivys Larez">
+				<label for="correo">Correo Electronico</label>
+				<input id="correo" type="tex" name="correo" placeholder="coreo@mail.com">
+				<div class="gripp">
+					<div>
+						<label for="cedula">Cedula</label></br>
+						<input id="celular" type="number" name="cedula" placeholder="29760239" min="1000000" max="60000000">
+					</div>
+					<div>
+						<label for="edad">Edad</label></br>
+						<input id="edad" type="number" name="edad" min="16" max="60" class="edad">
+					</div>
+				</div>
+				<div class="grip">
+					<div>
+						<label for="turno">Turno</label></br>
+						<select id="hora" name="turno" class="turno">
+							<option>7:00 a 11:30 AM</option>
+							<option>2:00 a 6:30 PM</option>
+						</select>
+					</div>
+						
+						<label for="cursos">Curso a inscribir</label>
+						<select id="cursos" name="cursos">
+							<option>Telecomunicaciones</option>
+							<option>Computación</option>
+							<option>Inglés</option>
+							<option>Matemáticas</option>
+							<option>Reposteria</option>
+							<option>Fisioterapia</option>
+						</select>
+					
+				</div>
+				<p class="inscribir">Inscribir</p>
+			</div>
+			<div class="enviar">
+				<h2>Bienvenido/a <span class="nombre"></span></h2>
+				<p>Gracias por inscribirte en el curso de <span class="cursos"></span></p>
+				<p>Te han asignado a la sección <span class="seccion"></span> en el horario de <span class="hora"></span></p>
+				<button type="submit" class="env">Aceptar</button>
+			</div>
+		</form>
+	</section>
+
+	<script src="javascript/formulario.js"></script>
+</body>
+</html>
